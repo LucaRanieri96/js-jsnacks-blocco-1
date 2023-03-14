@@ -11,4 +11,4 @@ for (let i = 0; i < 10; i++) {
 // Il programma stampa la somma di tutti i numeri inseriti.
 console.log("la somma dei numeri: " + numberSum)
 
-Sum.innerHTML = "la somma dei numeri= " + numberSum;
+Sum.innerHTML = "la somma dei numeri = " + numberSum;
