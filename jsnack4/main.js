@@ -8,7 +8,7 @@ const invitedPeople = [
     "giovanni",
     "ferdinando",
     "claudia",
-    "Alessandro"
+    "alessandro"
 ]
 
 // chiedo all'utente il suo nome
@@ -34,12 +34,15 @@ while (j < invitedPeople.length) {
     if (invitedPeople[j] === userName) {
     invited = true;
     }
+
     j++
 }
 
 // dico all'utente se è invitato o meno
+
 if (invited) {
 alert("Benvenuto alla festa del grande Gatsby!");
 } else {
-alert("Mi dispiace, non sei stato invitato alla festa del grande Gatsby.");
-};
+    alert("Mi dispiace, non sei stato invitato alla festa del grande Gatsby.")
+}
+
