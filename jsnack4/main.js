@@ -45,4 +45,4 @@ alert("Benvenuto alla festa del grande Gatsby!");
 } else {
     alert("Mi dispiace, non sei stato invitato alla festa del grande Gatsby.")
 }
-
+}
